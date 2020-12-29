@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted-MachineLearning-NET", "GettingStarted-MachineLearning-NET\GettingStarted-MachineLearning-NET.csproj", "{BC46A444-99F9-4062-9C02-C5F130A2C3ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted-MachineLearning-NET", "GettingStarted-MachineLearning-NET\GettingStarted-MachineLearning-NET.csproj", "{BC46A444-99F9-4062-9C02-C5F130A2C3ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted-MachineLearning-NETML.Model", "GettingStarted-MachineLearning-NETML.Model\GettingStarted-MachineLearning-NETML.Model.csproj", "{628F2A25-4096-4F4C-9406-E3A337775631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted-MachineLearning-NETML.ConsoleApp", "GettingStarted-MachineLearning-NETML.ConsoleApp\GettingStarted-MachineLearning-NETML.ConsoleApp.csproj", "{E00F1E13-80B8-466F-8081-ED7694044BDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BC46A444-99F9-4062-9C02-C5F130A2C3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +31,35 @@ Global
 		{BC46A444-99F9-4062-9C02-C5F130A2C3ED}.Release|x64.Build.0 = Release|Any CPU
 		{BC46A444-99F9-4062-9C02-C5F130A2C3ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{BC46A444-99F9-4062-9C02-C5F130A2C3ED}.Release|x86.Build.0 = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|x64.Build.0 = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Debug|x86.Build.0 = Debug|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|x64.ActiveCfg = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|x64.Build.0 = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|x86.ActiveCfg = Release|Any CPU
+		{628F2A25-4096-4F4C-9406-E3A337775631}.Release|x86.Build.0 = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|x64.Build.0 = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{E00F1E13-80B8-466F-8081-ED7694044BDD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C091320-7CFF-4BA9-91B8-A02D18C00FE0}
 	EndGlobalSection
 EndGlobal
