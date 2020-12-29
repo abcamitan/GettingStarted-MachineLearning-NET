@@ -2,12 +2,16 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>GettingStarted_MachineLearning_NET</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.5.0-preview2" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GettingStarted-MachineLearning-NETML.Model\GettingStarted-MachineLearning-NETML.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectCapability Include="ModelBuilderGenerated" />
+  </ItemGroup>
 </Project>
