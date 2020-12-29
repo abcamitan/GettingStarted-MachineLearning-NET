@@ -1,4 +1,4 @@
-# GettingStarted-MachineLearning-NET
+# Getting Started with Machine Learning using `.Net Core 5.0` and `ML.Net`
 
 This project is used to learn about Machine Learning using .Net Core 5.0. I followed the sample project from [ML.Net Tutorial Page](https://dotnet.microsoft.com/learn/ml-dotnet/get-started-tutorial/intro).
 
